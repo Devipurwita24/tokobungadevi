@@ -44,7 +44,7 @@
     <tr>
         <td><br><button class="bg-info btn-lg">
         <span class="spinner-grow spinner-grow-sm bg-light"></span>
-        <a class="text-warning" href="#">karangan bunga</a></button></td>
+        <a class="text-warning" href="formbunga.php">karangan bunga</a></button></td>
     </tr>
 </table>
 </div>
