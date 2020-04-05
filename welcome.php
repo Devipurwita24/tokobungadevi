@@ -9,7 +9,7 @@
 <body align="center" class="bg-warning">
 
 <div class="jumbotron text-center bg-info">
-<h1>selamat datang di DevFlower </h1>
+<h1>LOGIN PETUGAS </h1>
 <h1>DevCantik</h1>
 </div >
 <br><br><br>

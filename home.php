@@ -25,6 +25,9 @@
       </li>
       <li class="nav-item">
         <a class="nav-link text-info" href="#">contact person</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link text-info" href="stok.php">stok</a>
       </li>    
     </ul>
   </div>  

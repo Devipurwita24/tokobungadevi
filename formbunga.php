@@ -30,7 +30,7 @@
 <body>
 <center>
 <br><br><br><br><br><br>
-    <h2 class="text-light">tulis bunga yang akan anda pesan</h2><br><br><br>
+    <h2 class="text-light">tulis bunga yang dipesan</h2><br><br><br>
     <table class="bg-muted">
     <tr>
         <td><button><img src="3.jpg" width="100" height="120"></button></td>
