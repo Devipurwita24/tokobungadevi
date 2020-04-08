@@ -21,7 +21,7 @@
         <th>warna kertas</th>
         <th>jumlah</th>
         <th>no_telp</th>
-        <th colspan="2">aksi</th>
+        <th colspan="4">aksi</th>
     </tr>
     
     <?php
@@ -38,6 +38,8 @@
         echo "<td><a href='formedit.php?no_telp=".$data['no_telp']."'><button>edit</button></a></td>";
         echo "<td><a href='deletedata.php?no_telp=".$data['no_telp']."'onclick='return confirm
             (\"apakah anda yakin ingin menghapus data?\")'><button>hapus</button></a></td>";
+        echo "<td><a href='aksistok.php?no_telp=".$data['no_telp']."'><button>tambah</button></a></td>";
+        echo "<td><a href='aksistok.php?no_telp=".$data['no_telp']."'><button>kurang</button></a></td>";
         echo "</tr>";
     }
     ?>

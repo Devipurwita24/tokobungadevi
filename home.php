@@ -6,6 +6,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap.css">
 </head>
+<style>
+  body{
+    background-color:rgba(11, 90, 69, 0.178);
+  }
+</style>
 <body>
 
 <div class="jumbotron text-center bg-info">
@@ -24,7 +29,7 @@
         <a class="nav-link text-info" href="#">lokasi</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-info" href="#">contact person</a>
+        <a class="nav-link text-info" href="tablepesanan.php">data_pemesan</a>
       </li> 
       <li class="nav-item">
         <a class="nav-link text-info" href="stok.php">stok</a>
@@ -76,6 +81,15 @@
         <h4>karangan bunga<small><i>mengesankan</i></small></h4>
         <p>sudah terbukti dengan banyaknya testimoni tentang karangan bunga milik kami yang tak kalah menarik</p>
       </div>
+</div>
+
+<div class="text-center " >
+  <br>
+    <h6>source photo from PINTEREST</h6>
+  <br>
+  <h5>Kebijakan Privasi  |   Syarat dan Ketentuan  |   hak cipta dilindungi undang-undang</h3>
+  <h7>Copyright © 2008-2020 Devflower.com. All rights reserved</h7>
+  <br>
 </div>
 
 

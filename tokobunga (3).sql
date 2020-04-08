@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 05 Apr 2020 pada 18.04
+-- Waktu pembuatan: 08 Apr 2020 pada 06.57
 -- Versi server: 10.4.6-MariaDB
 -- Versi PHP: 7.3.9
 
@@ -34,16 +34,7 @@ CREATE TABLE `bunga` (
   `jumlah` int(50) NOT NULL,
   `no_telp` int(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data untuk tabel `bunga`
---
-
-INSERT INTO `bunga` (`nama_bunga`, `warna_kertas`, `jumlah`, `no_telp`) VALUES
-('mawar', 'pinkk', 3, 33535),
-('bunga lili', 'pink', 4, 98765),
-('liliun', 'pink', 1, 987600),
-('tulip', 'hitam', 9, 44444444);
+-- Kesalahan membaca data untuk tabel tokobunga.bunga: #1064 - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `tokobunga`.`bunga`' at line 1
 
 -- --------------------------------------------------------
 
