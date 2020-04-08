@@ -25,9 +25,6 @@
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
-      <li class="navbar-item">
-        <a class="nav-link text-info" href="#">lokasi</a>
-      </li>
       <li class="nav-item">
         <a class="nav-link text-info" href="tablepesanan.php">data_pemesan</a>
       </li> 
