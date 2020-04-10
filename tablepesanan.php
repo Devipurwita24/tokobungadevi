@@ -15,7 +15,7 @@
 </head>
 <body align="center">
     <center><h1 class="text-light">Data pemesanan</h1><br><br><br><br>
-    <table width ="70%" border="3" class="text-center bg-info">
+    <table width ="70%" border="3" class="text-center bg-warning">
     <tr>
         <th>nama bunga</th>
         <th>warna kertas</th>
