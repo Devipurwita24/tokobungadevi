@@ -22,6 +22,7 @@
         <th>jumlah</th>
         <th>no_telp</th>
         <th colspan="4">aksi</th>
+        <th>total</th>
     </tr>
     
     <?php
@@ -40,11 +41,16 @@
             (\"apakah anda yakin ingin menghapus data?\")'><button>hapus</button></a></td>";
         echo "<td><a href='aksistok.php?tambah=".$data['no_telp']."'><button>tambah</button></a></td>";
         echo "<td><a href='aksistok.php?kurang=".$data['no_telp']."'><button>kurang</button></a></td>";
+        echo "<td>".$data['total']."</td>";
         echo "</tr>";
+        
     }
     ?>
     </table>
-    </center>
+    <br>
+    <button><a href="home.php"><h3>kembali ke beranda</h3></a></button>
+
+   </center>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="./assets/bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/js/bootstrap.js"></script>

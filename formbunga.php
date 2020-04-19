@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="formbunga.css">
     <link rel="stylesheet" href="./assets/bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap.css">
     
 </head>
 <style>
         body{
-            background-image: url(6.1.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
+            background-color: #c29c99;
         }
         h2{
             text-align: center;
@@ -23,7 +22,6 @@
             width: 40%;
             margin:0px 400px;
             font-size: 25px;
-            background-color: lightpink;
         }
         
 </style>
@@ -39,39 +37,39 @@
         <td><button><img src="10.jpg" width="100" height="120"></button></td>
     </tr>
     </table>
-    <br><br><br>
+    <br>
     <h4>
     <form action="aksibunga.php" method="post">
     <div class="tabel">
         <table width="50%" class="text-left" >
             <tr>
-                <td>nama bunga</td>
+                <td>Nama bunga</td>
                 <td>:</td>
                 <td><input type="text" name="nama_bunga" placeholder="nama bunga"></td>
             </tr>
             <tr>
              <br>
-                <td>warna kertas</td>
+                <td>Warna kertas</td>
                 <td>:</td>
                 <td><input type="text" name="warna_kertas" placeholder="warna kertas"></td>
             </tr>
             <tr>
                 <div>
                 <br>
-                <td>jumlah</td>
+                <td>Jumlah</td>
                 <td>:</td>
                 <td><input type="text" name="jumlah" placeholder="jumlah"></td>
                 </div>
             </tr>
             <tr>
             <div>
-                <td>nomer_telepon</td>
+                <td>Nomer_telepon</td>
                 <td>:</td>
                 <td><input type="text" name="no_telp" placeholder="no.telp"></td>
             </div>
             </tr>
             <tr  class="text-center ">
-                <td><button class="bg-info">simpan</button></td>
+                <td><button class="bg-light">Pesan</button></td>
             </tr>
         </table>
         </div>

@@ -29,8 +29,11 @@
         <a class="nav-link text-info" href="tablepesanan.php">data pemesan</a>
       </li> 
       <li class="nav-item">
-        <a class="nav-link text-info" href="stok.php">stok</a>
-      </li>    
+        <a class="nav-link text-info" href="formregister.php">Register</a>
+      </li>  
+      <li class="nav-item">
+        <a class="nav-link text-info" href="formlogin.php">login</a>
+      </li>  
     </ul>
   </div>  
 </nav>

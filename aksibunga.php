@@ -12,7 +12,7 @@ $result = mysqli_query($connect,$query);
 $num = mysqli_affected_rows($connect);
 
 if($num>0){
-    header("location:tablepesanan.php");
+    header("location:aksitotal.php");
 }else{
     echo "gagal memesan bunga";
 }
