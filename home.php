@@ -10,30 +10,37 @@
   body{
     background-color:rgba(11, 90, 69, 0.178);
   }
+  ul{
+    border :3;
+    
+  }
+  button{
+    border:0;
+  }
 </style>
 <body>
 
 <div class="jumbotron text-center bg-info">
-<h1 class="text-warning">DEVFLOWER</h1>
+<img src="logo.png" widht="170" height="150">
 <p class="text-warning">selamat datang di toko bunga devi cantik</p>
 </div>
 
-<nav class="navbar navbar-expand bg-warning navbar-light">
-  <a class="navbar-brand" href="#">about me</a>
+<nav class="navbar navbar-expand bg-warning navbar-light justify-content-end">
+  <a class="navbar-brand" ><h3 class="text-light">DEVFLOWER</h3></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link text-info" href="tablepesanan.php">data pemesan</a>
+        <a class="nav-link text-info mr-sm-2"  href="tablepesanan.php"> <h5>Data pemesan</h3></a>
       </li> 
-      <li class="nav-item">
-        <a class="nav-link text-info" href="formregister.php">Register</a>
+      <li class="nav-left">
+        <a class="nav-link text-dark text-right " href="formregister.php"><button class="bg-success"><h5>Regristasi</h5></button></a>
       </li>  
-      <li class="nav-item">
-        <a class="nav-link text-info" href="formlogin.php">login</a>
-      </li>  
+      <li class="nav-left">
+        <a class="nav-link text-light" href="formlogin.php"><button class="bg-info"><h5>Login</h5></button></a>
+      </li>
     </ul>
   </div>  
 </nav>
@@ -59,7 +66,7 @@
 
 <div class="container mt-3">
 <br><br>
-  <h2>kelebihan</h2>
+  <h2>About me</h2>
   <p>kami memiliki beberapa kelebihan unggul dari pada toko lainya:</p>
   <div class="media border p-3">
     <img src="1.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:90px;">
@@ -82,6 +89,7 @@
         <p>sudah terbukti dengan banyaknya testimoni tentang karangan bunga milik kami yang tak kalah menarik</p>
       </div>
 </div>
+
 
 <div class="text-center " >
   <br>
